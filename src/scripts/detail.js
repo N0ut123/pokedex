@@ -57,7 +57,7 @@ async function loadPokemon(id) {
 
     return true;
   } catch (error) {
-    console.error("An error occured while fetching Pokemon data:", error);
+    console.error("Ocorreu um erro ao buscar dados do Pokémon:", error);
     return false;
   }
 }
