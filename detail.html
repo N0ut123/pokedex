@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/styles/detail.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+</head>
+  <body>
+    <main class="detail-main main">
+      <header class="header">
+        <div class="header-wrapper">
+          <div class="header-wrap">
+            <a href="./index.html" class="back-btn-wrap">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <div class="name-wrap">
+              <h1 class="name"></h1>
+            </div>
+          </div>
+          <div class="pokemon-id-wrap">
+            <p class="body2-fonts"></p>
+          </div>
+        </div>
+      </header>
+      <div class="featured-img">
+        <a href="#" class="arrow left-arrow" id="leftArrow">
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>
+        <div class="detail-img-wrapper">
+          <img src="" alt="" />
+        </div>
+        <a href="#" class="arrow right-arrow" id="rightArrow">
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+      </div>
+      <div class="detail-card-detail-wrapper">
+        <div class="power-wrapper">
+          <p class="body3-fonts type grass"></p>
+          <p class="body3-fonts type poison"></p>
+        </div>
+        <p class="body2-fonts about-text">About</p>
+        <div class="pokemon-detail-wrapper">
+          <div class="pokemon-detail-wrap">
+            <div class="pokemon-detail">
+                <i class="fa-solid fa-weight-hanging"></i>
+              <p class="body3-fonts weight"></p>
+            </div>
+            <p class="caption-fonts">Weight</p>
+          </div>
+          <div class="pokemon-detail-wrap">
+            <div class="pokemon-detail">
+                <i class="fa-solid fa-ruler-vertical"></i>
+              <p class="body3-fonts height"></p>
+            </div>
+            <p class="caption-fonts">Height</p>
+          </div>
+          <div class="pokemon-detail-wrap">
+            <div class="pokemon-detail move"></div>
+            <p class="caption-fonts">Move</p>
+          </div>
+        </div>
+        <p class="body3-fonts pokemon-description"></p>
+        <p class="body2-fonts about-text">Base Stats</p>
+        <div class="stats-wrapper">
+          <div class="stats-wrap" data-stat="hp">
+            <p class="body3-fonts stats">HP</p>
+            <p class="body3-fonts"></p>
+            <progress value="" max="100" class="progress-bar"></progress>
+          </div>
+          <div class="stats-wrap" data-stat="ATK">
+            <p class="body3-fonts stats">ATK</p>
+            <p class="body3-fonts"></p>
+            <progress value="" max="100" class="progress-bar"></progress>
+          </div>
+          <div class="stats-wrap" data-stat="DEF">
+            <p class="body3-fonts stats">DEF</p>
+            <p class="body3-fonts"></p>
+            <progress value="" max="100" class="progress-bar"></progress>
+          </div>
+          <div class="stats-wrap" data-stat="SATK">
+            <p class="body3-fonts stats">SATK</p>
+            <p class="body3-fonts"></p>
+            <progress value="" max="100" class="progress-bar"></progress>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/scripts/detail.js"></script>
+
+  </body>
+</html>

@@ -4,14 +4,20 @@
 }
 
 body {
-  background-color: #f6f8fc;
+  background-color: #a7b7d6;
 }
 
 .content {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding: 1rem;
   background-color: #fff;
+  overflow-y: auto;
+}
+.pokemon-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 @media screen and (min-width: 992px) {
@@ -20,5 +26,8 @@ body {
       height: auto;
       margin: 1rem auto;
       border-radius: 1rem;
+      min-height: unset;
   }
 }
+
+
